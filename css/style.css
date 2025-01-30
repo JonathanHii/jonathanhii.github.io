@@ -34,7 +34,7 @@ body {
 /* Fonts */
 
 h1 {
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
     margin: var(--spacing-width);
 }
@@ -202,18 +202,21 @@ a:hover {
 }
 
 /* Home page */
-/* About me*/
-#about-me {
+#home {
     display: flex;
     justify-content: center;
     /* Center the section horizontally */
     align-items: center;
     /* Center the section vertically */
-    height: 75vh;
+    margin-top: 125px;
+    margin-bottom: 275px;
     /* Full viewport height */
-    padding: 20px;
+
     background-color: var(--bg-color);
     color: var(--text-color);
+
+    padding-left: 20px;
+
 }
 
 .about-content {
@@ -286,6 +289,97 @@ a:hover {
     /* Slightly enlarge on hover */
 }
 
+/* about title */
+#about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--bg-color);
+}
+
+#about-title h2 {
+    font-size: 2em;
+    color: var(--text-color);
+    margin: 0;
+}
+
+
+/* about info */
+
+
+.resume {
+    display: inline-block;
+    margin-top: 20px;
+    /* Space above the button */
+    margin-left: 17px;
+    /* Move the button a few pixels to the right */
+    padding: 10px 20px;
+    background-color: #484848;
+    /* Button color */
+    color: var(--text-color);
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.resume:hover {
+    transform: scale(1.15);
+    /* Slightly enlarge on hover */
+}
+
+.introduction {
+    flex: 1;
+    padding: 20px;
+}
+
+.introduction p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.skills {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.skills div {
+    flex: 1;
+    padding: 10px;
+}
+
+.skills h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 50px;
+    background-color: #484848;
+    color: #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skill-button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 800px) {
     .about-content {
         flex-direction: column;
@@ -295,7 +389,7 @@ a:hover {
 
     .description {
         padding-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .links {
@@ -305,7 +399,15 @@ a:hover {
     .about-button {
         margin-left: 0;
         width: auto;
-        max-width: 200px; /* Set a maximum width for the button */
+        max-width: 200px;
+        /* Set a maximum width for the button */
         text-align: center;
+    }
+
+    /* Home page */
+    #home {
+        margin-bottom: 150px;
+        
+
     }
 }
