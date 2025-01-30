@@ -361,10 +361,9 @@ a:hover {
 .skill-button {
     font-size: 16px;
     padding: 10px 20px;
-    border: 2px solid #007bff;
     border-radius: 50px;
     background-color: #484848;
-    color: #007bff;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
