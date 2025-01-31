@@ -208,8 +208,8 @@ a:hover {
     /* Center the section horizontally */
     align-items: center;
     /* Center the section vertically */
-    margin-top: 325px;
-    margin-bottom: 400px;
+    margin-top: 30vh;
+    margin-bottom: 45vh;
     /* Full viewport height */
 
     background-color: var(--bg-color);
