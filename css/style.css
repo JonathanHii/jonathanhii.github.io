@@ -34,7 +34,7 @@ body {
 /* Fonts */
 
 h1 {
-    font-size: 44px;
+    font-size: 68px;
     font-weight: 700;
     margin: var(--spacing-width);
 }
@@ -208,8 +208,8 @@ a:hover {
     /* Center the section horizontally */
     align-items: center;
     /* Center the section vertically */
-    margin-top: 125px;
-    margin-bottom: 275px;
+    margin-top: 325px;
+    margin-bottom: 400px;
     /* Full viewport height */
 
     background-color: var(--bg-color);
@@ -250,21 +250,11 @@ a:hover {
     /* Space between links */
     text-decoration: none;
     color: var(--text-color);
-    background-color: #0073b1;
     /* LinkedIn color */
-    padding: 10px 20px;
+
     transition: transform 0.3s;
 }
 
-.links a:nth-child(2) {
-    background-color: #333;
-    /* GitHub color */
-}
-
-.links a:nth-child(3) {
-    background-color: #d14836;
-    /* Email color */
-}
 
 .links a:hover {
     transform: scale(1.15);
@@ -306,7 +296,8 @@ a:hover {
 }
 
 #about-info {
-    margin-bottom: 150px; /* Adjust the value as needed */
+    margin-bottom: 150px;
+    /* Adjust the value as needed */
 }
 
 
@@ -422,6 +413,7 @@ a:hover {
 
     /* Home page */
     #home {
+        margin-top: 150px;
         margin-bottom: 150px;
 
     }
@@ -435,7 +427,12 @@ a:hover {
     }
 
     #about-info {
-        margin-bottom: 75px; /* Adjust the value as needed */
+        margin-bottom: 75px;
+        /* Adjust the value as needed */
+    }
+
+    h1 {
+        font-size: 60px;
     }
 
 }
