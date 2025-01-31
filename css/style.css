@@ -397,6 +397,14 @@ a:hover {
     #about-title {
         margin-top: 3vh;
     }
+    .about-introduction {
+        margin-bottom: 3vh;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.25;
+    }
 }
 
 /* project page */
