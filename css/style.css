@@ -77,7 +77,7 @@ a:hover {
 
 #navbar-menu.shrink {
     height: 60px;
-  }
+}
 
 
 
@@ -217,8 +217,17 @@ a:hover {
     justify-content: center;
     margin-top: 39vh;
     margin-bottom: 41vh;
+
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
 }
 
+
+#home-page.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .home-content {
     display: flex;
@@ -409,6 +418,7 @@ a:hover {
     #about-title {
         margin-top: 9vh;
     }
+
     .about-introduction {
         margin-bottom: 3vh;
     }

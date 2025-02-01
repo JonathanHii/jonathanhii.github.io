@@ -37,5 +37,11 @@ window.addEventListener("scroll", function () {
     }
 });
 
+/* animate in */
+window.addEventListener("load", function () {
+    const homePage = document.getElementById("home-page");
+    homePage.classList.add("animate-in");
+});
+
 
 
