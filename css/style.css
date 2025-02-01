@@ -521,6 +521,12 @@ a:hover {
     transform: scale(1.05);
 }
 
+.project h3 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 768px) {
     #about-page {
         margin-bottom: 0px;
