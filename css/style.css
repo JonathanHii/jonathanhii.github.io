@@ -326,7 +326,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 39vh;
+    margin-bottom: 5vh;
+
 }
 
 
@@ -460,21 +461,83 @@ a:hover {
     }
 }
 
+/* project button */
+#project-button {
+    text-align: center;
+}
+
+#project-button a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #484848;
+    transition: transform 0.3s;
+    border-radius: 50px;
+}
+
+#project-button a:hover {
+    transform: scale(1.15);
+}
+
+@media only screen and (max-width: 768px) {
+    #project-button {
+        display: none;
+    }
+}
+
 /* project page */
 #project-title {
     text-align: center;
-    margin-top: 28vh;
-    margin-bottom: 3.5vh;
+    margin-top: 24vh;
+    margin-bottom: 5vh;
 }
 
 #project-page {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39vh;
 }
 
-/* Responsive Adjustments for about page */
+
+#project-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1024px;
+    /* Maximum width */
+}
+
+.project {
+    height: 425px;
+    width: 300px;
+    background-color: #484848;
+    transition: all 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
 @media only screen and (max-width: 768px) {
+    #about-page {
+        margin-bottom: 0px;
+    }
+
     #project-title {
-        margin-top: 8vh;
-        margin-bottom: 3vh;
+        margin-top: 10vh;
+    }
+
+    #project-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 8vh;
+    }
+
+    .project {
+        height: 370px;
+        width: 245px;
     }
 }

@@ -19,11 +19,12 @@ window.addEventListener("scroll", function () {
     }
 });
 
-/* animate in */
+/* animate in home */
 window.addEventListener("load", function () {
     const homePage = document.getElementById("home-page");
     homePage.classList.add("animate-in");
 });
+
 
 
 
