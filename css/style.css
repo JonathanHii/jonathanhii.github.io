@@ -349,6 +349,7 @@ a:hover {
     padding: 10px 20px;
     background-color: #484848;
     transition: transform 0.3s;
+    border-radius: 50px;
 }
 
 .resume:hover {
