@@ -12,7 +12,7 @@ function hideDropdown() {
 
 window.addEventListener("scroll", function () {
     const navbar = document.getElementById("navbar-menu");
-    if (window.scrollY > 150) {
+    if (window.scrollY > 125) {
         navbar.classList.add("shrink");
     } else {
         navbar.classList.remove("shrink");
