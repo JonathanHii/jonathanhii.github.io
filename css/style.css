@@ -289,7 +289,7 @@ a:hover {
     h1 {
         font-size: 60px;
     }
-    
+
     #home-page {
         margin-top: 24vh;
         margin-bottom: 23vh;
@@ -432,9 +432,19 @@ a:hover {
         margin-bottom: 3vh;
     }
 
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
     p {
-        font-size: 20px;
-        line-height: 1.25;
+        font-size: 18px;
+        line-height: 1.3;
     }
 }
 
@@ -447,4 +457,12 @@ a:hover {
 
 #project-page {
     text-align: center;
+}
+
+/* Responsive Adjustments for about page */
+@media only screen and (max-width: 768px) {
+    #project-title {
+        margin-top: 8vh;
+        margin-bottom: 3vh;
+    }
 }
