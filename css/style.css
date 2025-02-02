@@ -493,7 +493,7 @@ a:hover {
 }
 
 #project-page {
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
     margin-bottom: 39vh;
@@ -525,7 +525,7 @@ a:hover {
 .project h3 {
     text-align: left;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
     margin-left: 25px;
@@ -535,6 +535,7 @@ a:hover {
     margin-left: 25px;
     margin-right: 25px;
     font-size: 19px;
+    font-weight: 0;
 }
 
 .project img {
@@ -546,7 +547,7 @@ a:hover {
     /* Add this line to create a white border */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     #about-page {
         margin-bottom: 0px;
     }
@@ -557,6 +558,7 @@ a:hover {
 
     #project-content {
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         gap: 5.5vh;
     }
