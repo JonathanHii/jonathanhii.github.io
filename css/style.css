@@ -511,11 +511,11 @@ a:hover {
 }
 
 .project {
-    height: 425px;
+    height: 365px;
     width: 300px;
     background-color: #484848;
     transition: all 0.3s ease;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .project:hover {
@@ -523,9 +523,27 @@ a:hover {
 }
 
 .project h3 {
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    font-size: 25px;
     font-weight: 500;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    margin-left: 25px;
+}
+
+.project p {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.project img {
+    margin: 10px;
+    width: 280px;
+    height: auto;
+    border: 0.70px solid rgba(255, 255, 255, 0.9);
+    border-radius: 2.5px;
+    /* Add this line to create a white border */
 }
 
 @media only screen and (max-width: 768px) {
@@ -544,7 +562,26 @@ a:hover {
     }
 
     .project {
-        height: 370px;
+        height: 325px;
         width: 245px;
+    }
+
+    .project img {
+        margin: 10px;
+        width: 225px;
+        height: auto;
+    }
+
+    .project h3 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 22.5px;
+    }
+    
+    .project p {
+        margin-left: 22.5px;
+        margin-right: 22.5px;
+        font-size: 19px;
     }
 }
