@@ -511,7 +511,7 @@ a:hover {
 }
 
 .project {
-    height: 365px;
+    height: 375px;
     width: 300px;
     background-color: #484848;
     transition: all 0.3s ease;
@@ -534,7 +534,7 @@ a:hover {
 .project p {
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .project img {
@@ -562,7 +562,7 @@ a:hover {
     }
 
     .project {
-        height: 325px;
+        height: 335px;
         width: 245px;
     }
 
@@ -582,6 +582,6 @@ a:hover {
     .project p {
         margin-left: 22.5px;
         margin-right: 22.5px;
-        font-size: 19px;
+        font-size: 18px;
     }
 }
