@@ -556,6 +556,11 @@ a:hover {
         margin-top: 10vh;
     }
 
+    #project-page {
+        margin-bottom: 16vh;
+    }
+    
+
     #project-content {
         flex-direction: column;
         flex-wrap: wrap;
