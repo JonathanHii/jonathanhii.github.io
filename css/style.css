@@ -297,7 +297,7 @@ a:hover {
     /* Slightly enlarge on hover */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     h1 {
         font-size: 18vw;
     }
@@ -417,7 +417,7 @@ a:hover {
 }
 
 /* Responsive Adjustments for about page */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .about-content {
         flex-direction: column;
         align-items: flex-start;
@@ -479,7 +479,7 @@ a:hover {
     transform: scale(1.15);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #project-button {
         display: none;
     }
@@ -547,7 +547,7 @@ a:hover {
     /* Add this line to create a white border */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #about-page {
         margin-bottom: 0px;
     }
