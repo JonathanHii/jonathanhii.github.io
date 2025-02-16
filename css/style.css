@@ -230,8 +230,7 @@ a:hover {
 #home-page {
     display: flex;
     justify-content: center;
-    margin-top: 39vh;
-    margin-bottom: 41vh;
+    height: 100vh;
 
     opacity: 0;
     transform: translateY(50px);
@@ -302,14 +301,18 @@ a:hover {
         font-size: 18vw;
     }
 
-    #home-page {
-        margin-top: 24vh;
-        margin-bottom: 23vh;
-    }
 
     .home-content {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .home-content-title {
+        margin-top: 30vh;
+    }
+
+    .home-content-links {
+        margin-bottom: 15vh;
     }
 }
 
