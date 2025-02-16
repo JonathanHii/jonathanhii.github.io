@@ -30,7 +30,7 @@ html {
 /* Body */
 
 body {
-    font-family: "Ubuntu Mono", serif;
+    font-family: "Montserrat", serif;
     background: var(--bg-color);
     color: var(--text-color);
 
@@ -40,7 +40,7 @@ body {
 
 h1 {
     font-size: 68px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h2 {
@@ -50,12 +50,12 @@ h2 {
 
 h3 {
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 p {
     font-size: 22px;
-    line-height: 1.25;
+    line-height: 1.35;
 }
 
 a {
@@ -298,7 +298,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     h1 {
-        font-size: 18vw;
+        font-size: 15vw;
     }
 
 
@@ -312,7 +312,7 @@ a:hover {
     }
 
     .home-content-links {
-        margin-bottom: 15vh;
+        margin-bottom: 18vh;
     }
 }
 
@@ -441,7 +441,7 @@ a:hover {
     }
 
     #about-title {
-        margin-top: 9vh;
+        margin-top: 8vh;
     }
 
     .about-introduction {
@@ -499,7 +499,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 26vh;
+    margin-bottom: 25vh;
 }
 
 
@@ -556,44 +556,13 @@ a:hover {
     }
 
     #project-title {
-        margin-top: 10vh;
+        margin-top: 8vh;
     }
 
     #project-page {
         margin-bottom: 16vh;
     }
 
-
-    #project-content {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 5.5vh;
-    }
-
-    .project {
-        height: 335px;
-        width: 245px;
-    }
-
-    .project img {
-        margin: 10px;
-        width: 225px;
-        height: auto;
-    }
-
-    .project h3 {
-        font-size: 24px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 22.5px;
-    }
-
-    .project p {
-        margin-left: 22.5px;
-        margin-right: 22.5px;
-        font-size: 18px;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -616,7 +585,7 @@ a:hover {
     }
 
     .project h3 {
-        font-size: 24px;
+        font-size: 21px;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 22.5px;
@@ -625,7 +594,7 @@ a:hover {
     .project p {
         margin-left: 22.5px;
         margin-right: 22.5px;
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
