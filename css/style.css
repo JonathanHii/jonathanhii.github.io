@@ -234,7 +234,7 @@ a:hover {
 
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1s, transform 1s;
+    transition: opacity 1.5s, transform 3s;
 }
 
 
