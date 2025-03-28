@@ -513,7 +513,7 @@ a:hover {
 }
 
 .project {
-    height: 375px;
+    height: 380px;
     width: 300px;
     background-color: #484848;
     transition: all 0.3s ease;
@@ -526,17 +526,18 @@ a:hover {
 
 .project h3 {
     text-align: left;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 600;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 .project p {
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 0;
 }
 
@@ -573,18 +574,18 @@ a:hover {
     }
 
     .project {
-        height: 335px;
-        width: 245px;
+        height: 380px;
+        width: 255px;
     }
 
     .project img {
-        margin: 10px;
+        margin: 15px;
         width: 225px;
         height: auto;
     }
 
     .project h3 {
-        font-size: 21px;
+        font-size: 19px;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 22.5px;
@@ -593,7 +594,7 @@ a:hover {
     .project p {
         margin-left: 22.5px;
         margin-right: 22.5px;
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
