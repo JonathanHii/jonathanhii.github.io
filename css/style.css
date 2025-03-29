@@ -542,10 +542,12 @@ a:hover {
 }
 
 .project img {
-    margin: 10px;
-    width: 280px;
+    margin-top: 12.5px;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 260px;
     height: auto;
-    border: 0.70px solid rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.781);
     border-radius: 2.5px;
     /* Add this line to create a white border */
 }
@@ -574,14 +576,15 @@ a:hover {
     }
 
     .project {
-        height: 380px;
+        height: 365px;
         width: 255px;
     }
 
     .project img {
-        margin: 15px;
-        width: 225px;
-        height: auto;
+        margin-top: 15px;
+        margin-left: 15.5px;
+        margin-right: 15.5px;
+        width: 220px;
     }
 
     .project h3 {
