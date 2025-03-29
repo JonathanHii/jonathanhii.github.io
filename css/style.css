@@ -81,8 +81,8 @@ a:hover {
     /* Stretch to the edges */
     margin: auto;
     /* Remove auto margin */
-    background-color: #484848;
-
+    background-color: rgba(72, 72, 72, 0.95);
+    backdrop-filter: blur(4px);
     position: fixed;
     top: 0;
 
