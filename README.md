@@ -17,7 +17,7 @@ Welcome to the repository for my personal website! This website serves as a port
 - **JavaScript**: For interactivity and animations.
 - **GitHub Pages**: For hosting the website.
 
-## Live Demo
+## Live Site
 
 You can view the live version of the website here: [jonathanhii.github.io](https://jonathanhii.github.io/)
 
