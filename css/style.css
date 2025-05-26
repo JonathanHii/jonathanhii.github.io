@@ -515,7 +515,7 @@ a:hover {
 
 .project {
     height: 380px;
-    width: 300px;
+    width: 315px;
     background-color: #484848;
     transition: all 0.3s ease;
     border-radius: 5px;
@@ -546,7 +546,7 @@ a:hover {
     margin-top: 15px;
     margin-left: 18px;
     margin-right: 18px;
-    width: 260px;
+    width: 275px;
     height: auto;
     border: 2px solid rgba(255, 255, 255, 0.781);
     border-radius: 2.5px;
@@ -577,7 +577,7 @@ a:hover {
     }
 
     .project {
-        height: 365px;
+        height: 375px;
         width: 255px;
     }
 
